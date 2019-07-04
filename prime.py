@@ -1,7 +1,10 @@
-num1=int(input())
-for i in range(2,num1):
-   if num1%i==0:
-       print("yes")
+prime=int(input())
+if prime>1:
+   for i in range(2,prime):
+      if(prime%i==0):
+       print("no")
        break
    else:
-       print("no")
+       print("yes")
+else:
+   print("no")
