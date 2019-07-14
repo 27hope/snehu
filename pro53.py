@@ -11,6 +11,6 @@ def checkpangram(str):
       
 
 if(checkpangram(str1) == True): 
-    print("Yes") 
+    print("yes") 
 else: 
-    print("No") 
+    print("no") 
