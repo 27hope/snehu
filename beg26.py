@@ -1,4 +1,4 @@
-num1=int(input())
-lst=list(map(int,input().split()))[:num1]
-lst.sort()
-print(*lst,end=" ")
+num=int(input())
+lt=list(map(int,input().split()))[:num]
+lt.sort()
+print(*lt,end=" ")
